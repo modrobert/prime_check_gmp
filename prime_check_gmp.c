@@ -39,7 +39,7 @@ int ptest(char *str, int base)
  }
 
  /* Determine whether n is prime. Return 2 if n is definitely prime, return 1
-    if p is probably prime (without being certain), or return 0 if n is 
+    if n is probably prime (without being certain), or return 0 if n is 
     definitely non-prime.
 
     This function performs some trial divisions, a Baillie-PSW probable prime
