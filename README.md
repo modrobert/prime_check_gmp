@@ -59,3 +59,8 @@ real	0m2.394s
 user	0m2.393s
 sys     0m0.000s
 </pre>
+
+### Install GMP library using Ubuntu Linux
+<pre>
+sudo apt-get install libgmp3-dev
+</pre>
