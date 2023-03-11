@@ -14,7 +14,6 @@
  PERFORMANCE OF THIS SOFTWARE.
 
  Compile with: gcc -O3 -Wpedantic prime_check_gmp.c -o prime_check_gmp -lgmp
-
 */
 
 #include <gmp.h>
