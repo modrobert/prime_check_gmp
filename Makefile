@@ -4,7 +4,7 @@ CLINK = -lgmp
 
 default: prime_check_gmp
 
-debug: CFLAGS = -g -Wpedantic -lgmp
+debug: CFLAGS = -g -Wpedantic
 debug: prime_check_gmp
 
 prime_check_gmp.o: prime_check_gmp.c
