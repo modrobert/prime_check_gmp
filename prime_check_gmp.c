@@ -67,7 +67,7 @@ int main(int argc, char * argv[])
   exit(3);
  }
 
- /* check for hex prefix. */
+ /* check for hex prefix */
  if (strstr(argv[1], hex) != NULL)
  {
   /* remove hex prefix */
