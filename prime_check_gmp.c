@@ -23,7 +23,7 @@
 
 #define REPS 50
 
-const char *PROGTITLE = "prime_check_gmp v0.12 by modrobert in 2023\n";
+const char *PROGTITLE = "prime_check_gmp v0.12 by modrobert in 2023";
 
 int ptest(char *str, int base)
 {
@@ -62,7 +62,7 @@ int main(int argc, char * argv[])
 
  if (argc < 2)
  {
-  fprintf(stderr, "%s", PROGTITLE);
+  fprintf(stderr, "%s\n", PROGTITLE);
   fprintf(stderr, "Syntax: %s <integer or '0x' prefixed hex string>\n", argv[0]);
   exit(3);
  }
